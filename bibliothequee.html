@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque - Accueil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">
+   <img src="biblio.png" alt="">
+   <h2>BIBLIO KNOWLEDGE</h2>
+      </div>
+      <div class="auth">
+        <a href="#" id="loginLink">Login</a>
+ | <a href="#">Register</a>
+      </div>
+    </div>
+    <nav>
+      <a href="bibliothequee.html">accueil</a>
+      <a href="ADHERENT.html">adherent</a>
+      <a href="BOOKS.html">books</a>
+      <a href="penalite.html">penalite</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>More Than 200 Books Over Here</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="search-bar">
+        <select>
+          <option>All Categories</option>
+        </select>
+       
+            <input type="text" id="bookSearch" placeholder="Search for books...">
+            <button onclick="searchBooks()">🔍</button>
+         
+          
+       
+      </div>
+    </div>
+  </section>
+
+  <section class="trending">
+    <h2>Trending Books</h2>
+    <div class="carousel">
+      <div class="book-card">
+        <img src="RIAD ELFAID/liv1.jpg" alt="Book 1">
+        <p>Don't make me think (3rd Edition)</p>
+        <small>Steve Krug</small>
+        <span>★★★★★</span>
+      </div>
+      <div class="book-card">
+        <img src="RIAD ELFAID/liv2.jpg" alt="Book 2">
+        <p>The Labyrinth of Whispers</p>
+        <small>Jane Holloway</small>
+        <span>★★★★☆</span>
+      </div>
+      <div class="book-card">
+        <img src="RIAD ELFAID/liv3.jpg" alt="Book 3">
+        <p>Edit This Book Cover</p>
+        <small>Author Name</small>
+        <span>★★★☆☆</span>
+      </div>
+      <div class="book-card">
+        <img src="RIAD ELFAID/liv4.jpg" alt="Book 4">
+        <p>Abstract Book</p>
+        <small>Research Division</small>
+        <span>★★★★☆</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="login-section" id="loginSection">
+    <h2>LOG IN</h2>
+    <p>Welcome back, Lorem ipsum dolor sit amet consectetur.</p>
+    <form>
+      <input type="email" placeholder="Email address" required>
+      <input type="password" placeholder="Password" required>
+      <a href="#">Forgot Password?</a>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-cols">
+      <div>
+        <h4>About us</h4>
+        <ul>
+          <li>Opening times</li>
+          <li>News and blogs</li>
+          <li>Press and media</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Join us</h4>
+        <ul>
+          <li>Free reader pass</li>
+          <li>Membership</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our services</h4>
+        <ul>
+          <li>Venue hire</li>
+          <li>Digitisation</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li>Public Lending Right</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

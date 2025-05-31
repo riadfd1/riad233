@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion des adhérents</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <img src="biblio.png" alt="Logo">
+          <span>BIBLIO KNOWLEDGE</span>
+        </div>
+        <nav>
+          <a href="bibliothequee.html">accueil</a>
+          <a href="ADHERENT.html">adherent</a>
+          <a href="BOOKS.html">books</a>
+          <a href="penalite.html">penalite</a>
+        </nav>
+          
+        <input type="text" class="search" placeholder="Search">
+      </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Ajouter un adhérent</h2>
+      <form id="adherent-form">
+        <input type="text" id="nom" placeholder="Nom" required autocomplete="off">
+        <input type="text" id="prenom" placeholder="Prénom" required autocomplete="off">
+        <input type="email" id="email" placeholder="Email" required autocomplete="off">
+        <input type="tel" id="tel" placeholder="telephone" required autocomplete="off">
+        <button type="submit">Valider</button>
+      </form>
+    </section>
+
+    <button id="show-form-btn" style="display:none;">Afficher le formulaire</button>
+
+    <section id="table-section" style="display:none;">
+      <h2>Liste des adhérents</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>telephone</th>
+          </tr>
+        </thead>
+        <tbody id="adherent-table-body"></tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-links">
+      <div>
+        <strong>About us</strong><br>
+        Opening times<br>Cyber-attack<br>News<br>Media<br>Jobs
+      </div>
+      <div>
+        <strong>Join us</strong><br>
+        Free reader pass<br>Study spaces<br>Membership<br>Support us
+      </div>
+      <div>
+        <strong>Services</strong><br>
+        Venue hire<br>Digitisation<br>Images<br>Metadata
+      </div>
+      <div>
+        <strong>Other</strong><br>
+        Lending Right<br>Legal deposit<br>Research collaboration
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Privacy policy | Terms | Contact us
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
